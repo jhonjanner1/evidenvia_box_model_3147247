@@ -1,0 +1,69 @@
+/* selector de clase 
+ -se determina con punto (.)
+ -todas las etiquetas con esa clase tendran el mismo estilo
+ -padding quiere decir doble relleno, capa entre el contenido y el relleno
+*/
+.box1{
+    display: block;
+    background-color: hsl(64, 48%, 74%);
+    height: 200px;
+    padding-top: 77px;
+    padding-left: 77px;
+    padding-right: 77px;
+    padding-bottom: 77px;
+    border-style: dashed;
+    border-color: brown;
+    border-width: 10px;
+
+}
+.box2{
+    /* propiedades 
+    -como el ancho y largo aplican unicamente a la capa de contenido
+    */
+    display: block;
+    background-color: #ffc69e;
+    width: 400px;
+    height: 100px;
+    padding: 30px 30px 30px 30px;
+    border: dotted darkblue 4px;
+    box-sizing: border-box;
+}
+
+/* modelo de caja 
+    - contenido : texto, imagenes, videos, svg
+    -en una caja tiene que haber contenido o debe tener
+    ancho  alto
+*/
+#caja3{
+    display: block;
+    background-color: rgb(231, 189, 159);
+    padding: 40px 20px ;
+    height: 250px;
+    border-top: dotted red 5px;
+    border-bottom: dashed blueviolet 4px;
+    border-left: inset blue 8px ;
+    border-right: double orange 5px;
+}
+#caja4{
+    display: block;
+    background-color: cyan;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    border-top-color: burlywood;
+    border-style: inset;
+    border-top-width: 20px;
+
+    border-bottom-color: black;
+    border-style: inset;
+    border-bottom-width: 40px;
+
+    border-right-color: cadetblue;
+    border-style: inset;
+    border-right-width: 10px;
+
+    border-left-color: chartreuse;
+    border-style: inset;
+    border-left-width: 80px;
+    
+    
+}
