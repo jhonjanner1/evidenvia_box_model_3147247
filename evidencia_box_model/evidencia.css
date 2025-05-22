@@ -1,0 +1,68 @@
+/*selector universal */
+/*se va a tocar a todas las etiquetas */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card{
+    margin: 40px auto 20px auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 251, 191);
+    border: black 2px solid;
+    border-radius: 60px;
+}
+
+
+.card > img{
+    border: transparent 9px solid;
+    display: block;
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    object-fit: fill;
+    margin: 20px auto 10px auto;
+    
+    border-bottom-right-radius: 200px;
+}
+/*selector de contenedor*/
+/*espacio va decendiente*/
+.card .contenedor {
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    width: 300px;
+}
+.contenedor > h1{
+    display: block;
+    color:rgb(206, 240, 211);
+    font-size: 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.contenedor >p{
+    display: block;
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgb(186, 171, 168);
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+}
+/* selector ded hermano adyacente*/
+p + a{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
